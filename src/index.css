@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+}
+
+div[id="root"] {
+  height: 100%;
+  width: 100%;
+
+  /* center all just for demo purpose */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
